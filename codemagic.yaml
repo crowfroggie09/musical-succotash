@@ -3,7 +3,7 @@ workflows:
   android-workflow:
     name: Android Workflow
 
-    triggering:
+    triggering: 
       events:
         - push
         - pull_request
